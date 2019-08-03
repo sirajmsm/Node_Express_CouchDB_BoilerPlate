@@ -4,7 +4,7 @@
   "description": "Node, Express,Couch",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +14,9 @@
   "author": "MS.Mohamed Siraj",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.4.2",
     "express": "^4.17.1",
-    "nano": "^8.1.0"
+    "nano": "^8.1.0",
+    "nodemon": "^1.19.1"
   }
 }
